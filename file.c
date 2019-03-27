@@ -27,4 +27,5 @@ int main()
  }
 }
  printf("\nTotal number of rising edge=%d, falling edge=%d, level=%d\n",rise,fall,level);
+ return 0;
 }
