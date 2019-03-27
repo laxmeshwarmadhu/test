@@ -1,0 +1,6 @@
+language: c
+sudo: false # only for faster builts
+compiler: gcc
+script:
+- gcc -o file file.c
+- ./file
